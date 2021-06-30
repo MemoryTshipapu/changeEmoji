@@ -2,22 +2,22 @@ element = document.getElementById('myEmoji');
 function ChangeEmoji() {
 if (element.src.match("glassoff"))
 {
- element.src="smile.png";
+ element.src="images/smile.png";
 }
 else if (element.src.match("smile"))
 {
-    element.src="love.jpg";
+    element.src="images/love.jpg";
 }
 else if (element.src.match("love"))
 {
-    element.src="bye.jpg";
+    element.src="images/bye.jpg";
 }
 else if (element.src.match("bye"))
 {
-    element.src="yep.png";
+    element.src="images/yep.png";
 }
 else {
-    element.src="glassoff.jpg";
+    element.src="images/glassoff.jpg";
 }
 
 };
